@@ -15,7 +15,9 @@ This project aims to:
 ## 📌 pipeline
 
 RFC leverages field decomposition to construct a pipelined classifier. By splitting rule fields into fixed-size chunks and organizing them into staged lookup tables, it simplifies classification logic and supports hardware-friendly deployment.
-Pipeline structure is illustrated below:![rfc](https://github.com/user-attachments/assets/5bf264ed-1dc1-4c4c-a768-52eedca0744f)
+Pipeline structure is illustrated below:
+
+![rfc](https://github.com/user-attachments/assets/5bf264ed-1dc1-4c4c-a768-52eedca0744f)
 
 
 ## 🔧 Features
