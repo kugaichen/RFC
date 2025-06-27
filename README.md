@@ -12,6 +12,12 @@ This project aims to:
 - Provide a modular, well-documented implementation suitable for research and educational purposes.
 - Offer example datasets and testing scripts to validate correctness and performance.
 
+## 📌 pipeline
+
+RFC leverages field decomposition to construct a pipelined classifier. By splitting rule fields into fixed-size chunks and organizing them into staged lookup tables, it simplifies classification logic and supports hardware-friendly deployment.
+Pipeline structure is illustrated below:![rfc](https://github.com/user-attachments/assets/5bf264ed-1dc1-4c4c-a768-52eedca0744f)
+
+
 ## 🔧 Features
 
 - Support for standard 5-tuple classification: source IP, destination IP, source port, destination port, and protocol.
